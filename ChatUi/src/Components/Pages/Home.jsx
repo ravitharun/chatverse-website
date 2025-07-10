@@ -84,7 +84,7 @@ function Home() {
           </button>
         </Link>
         <p className="mt-6 text-sm text-gray-500 dark:text-gray-400">
-          © {new Date().getFullYear()} ChatVerse. Built with ❤️ by Tharun Ravi.
+          © {new Date().getFullYear()} ChatVerse. Built  by Tharun Ravi.
         </p>
       </footer>
     </div>

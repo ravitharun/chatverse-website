@@ -1,6 +1,7 @@
 import React from "react";
 
 function Sidepage() {
+  const name = "thaun";
   return (
     <div className="p-4 max-h-screen overflow-y-auto">
       {/* Search Box */}
@@ -14,16 +15,17 @@ function Sidepage() {
       <div className="flex items-center justify-between p-3 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 cursor-pointer transition">
         {/* Left: Avatar and Info */}
         <div className="flex items-center gap-3 min-w-0">
-          <img
-            src="https://via.placeholder.com/48"
-            alt="User_pic"
-            className="w-12 h-12 rounded-full border object-cover shrink-0"
-          />
+          <div className="w-12 h-12 rounded-full bg-blue-600 text-white flex items-center justify-center text-lg font-semibold">
+            {name.charAt(0).toUpperCase()}
+          </div>
+
           <div className="min-w-0">
             <h4 className="text-sm md:text-base font-semibold text-gray-900 dark:text-white truncate">
               Tharun Ravi
             </h4>
-            <p className="text-xs text-gray-500 dark:text-gray-400 truncate">Hey there!</p>
+            <p className="text-xs text-gray-500 dark:text-gray-400 truncate">
+              Hey there!
+            </p>
           </div>
         </div>
 
